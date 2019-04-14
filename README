@@ -1,0 +1,10 @@
+Name: Justin Lam, Email: lam46@purdue.edu
+Name: Keen You, Email: you54@purdue.edu
+Name: Josephine Nadia Santoso, Email: jsantoso@purdue.edu
+
+Project Name: Purdue 252 Memes
+Project Description:
+The project will be a page where users can view images they uploaded or from others. The users can upload images with a brief description about them, delete the images they uploaded but they can't delete other users images. And finally the users are able to see recommended images when they input a certain category they want in a text field. 
+
+Technologies and Services:
+We'll be writing the frontend with ReactJS, HTML, CSS. The database we will use firebase. The server will be in python. And finally we'll be using DigitalOcean for host. 
