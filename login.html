@@ -5,45 +5,37 @@
 <title>Login Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-	body{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    form {
-    	border: 3px solid #f1f1f1;
-    }
-	.container {
-  		padding: 16px;
-	}
-	input[type=text], input[type=password] {
-	  width: 100%;
-	  padding: 12px 20px;
-	  margin: 8px 0;
-	  display: inline-block;
-	  border: 1px solid #ccc;
-	  box-sizing: border-box;
-	}
-
-	button {
-	  background-color: #A9A9A9;
-	  color: white;
-	  padding: 14px 20px;
-	  margin: 8px 0;
-	  border: none;
-	  cursor: pointer;
-	  width: 100%;
-	}
-
-	button:hover {
-	  opacity: 0.8;
-	}
-	</style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .container {
+    padding: 16px;
+  }
+</style>
 </head>
 
 <body>
-	<main>
 	<div class="container">
-		<h1><strong>CS252 Memes</strong></h1>
-		<h2>Login Page</h2>
+		<h1>Login Page</h1>
+		<p>Please enter your email and password.</p>
+		<hr>
+
 		<label for="uname"><b>Username</b></label>
 	    <input id = "userinput" type="text" placeholder="Enter Username" name="uname" required>
 
@@ -51,11 +43,7 @@
 	    <input id = "userpassword" type="password" placeholder="Enter Password" name="psw" required>
 	        
 	    <a href="javascript:check()">Submit</a>
-
-	    <label>
-	    <input type="checkbox" checked="checked" name="remember"> Remember me
-	    </label>
-
+	    <br>
 	    <br>
 	    <a href="sign_up.html">Don't have an account? Sign up now!</a>
 	    <br>
@@ -67,6 +55,7 @@
 			<h3><center>I know its cheesy but I feel grate!</center></h3>
 		</div>
 	</div>
+
 </body>
 <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
 <script>
