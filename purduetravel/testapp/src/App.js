@@ -9,6 +9,11 @@ import SignUpPage from './components/SignUp';
 import SignInPage from './components/SignIn';
 import HomePage from './pages/Home';
 import Navigation from './components/Navigation';
+
+import Forum_Show from './components/Post/Show';
+import Forum_Edit from './components/Post/Edit';
+import Forum_Create from './components/Post/Create';
+
 class App extends React.Component {
   render() {
     return (
@@ -22,6 +27,9 @@ class App extends React.Component {
         <Route exact path={routes.SIGN_IN} component={SignInPage} />
         <Route exact path={routes.HOME} component={HomePage} />
 
+        <Route path='/Forum_edit/:id' component={Forum_Edit} />
+        <Route path='/Forum_create' component={Forum_Create} />
+        <Route path='/Forum_show/:id' component={Forum_Show} />
       </div>
     </Router>
 

@@ -23,6 +23,11 @@ const NavigationAuth = () =>
       HOME
     </Button>
     
+    <Button>
+      <Link to="/Forum_create" >
+        Add
+    </Link>
+    </Button>
     
     <SignOutButton/>
   </ul>
