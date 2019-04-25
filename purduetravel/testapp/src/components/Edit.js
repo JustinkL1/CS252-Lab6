@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import {firebase} from '../../shared/firebase';
+import {firebase} from '../shared/firebase';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { compose } from 'recompose';
-import withAuthorization from '../withAuthorization';
+import withAuthorization from './withAuthorization';
 
 import FormGroup from '@material-ui/core/FormGroup';
 import TextField from '@material-ui/core/TextField';
