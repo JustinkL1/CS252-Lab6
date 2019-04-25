@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
+import { SignUpLink } from '../components/SignUp';
 
 const landingTheme = {
     textAlign: 'center',
@@ -10,7 +11,8 @@ const landingTheme = {
 const LandingPage = ({ history }) => {
     return (
         <div>
-            HomePage 
+            LandPage 
+            <SignUpLink />
         </div>
     );
 };
