@@ -22,12 +22,6 @@ const NavigationAuth = () =>
     <Button color="primary" component={Link} to = {routes.HOME}>
       HOME
     </Button>
-
-    <Button>
-      <Link to="/Forum_create" >
-        Add
-    </Link>
-    </Button>
     
     
     <SignOutButton/>
@@ -35,9 +29,9 @@ const NavigationAuth = () =>
 
 const NavigationNonAuth = () =>
   <ul>
-    <Button component={Link} to = {routes.LANDING}>
+    {/* <Button component={Link} to = {routes.LANDING}>
       Sign In
-    </Button>  
+    </Button>   */}
   </ul>
 
   const mapStateToProps = (state) => ({
