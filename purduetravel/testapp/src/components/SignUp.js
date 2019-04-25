@@ -5,6 +5,7 @@ import { auth, db } from '../shared';
 import * as routes from '../constants/routes';
 
 import {firebase} from '../shared/firebase'
+import '../assets/Signup.css';
 
 
 const SignUpPage = ({ history }) =>
