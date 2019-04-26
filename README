@@ -8,4 +8,4 @@ Project Description:
 The website allows users to register and upload travel blogs which consist of title, description and image. They can edit or delete their own posts later on but they are not permitted to make changes to other people's posts. When a post is upload, other users will be able to see it on their homepage as well, including the title, description, image, creator of the post and also the time when the post is shared. We aim to create a platform that provide opportunities for travellers to share their itineries and recommendations with one another.
 
 Technologies and Services:
-We'll be writing the frontend with ReactJS, HTML, CSS. The database we will use firebase. The server will be in python. And finally we'll be using DigitalOcean for host. 
+We'll be writing the frontend with ReactJS, HTML, CSS. The database we will use firebase. The server will be in python. And finally we'll be using Firebase for host. 
